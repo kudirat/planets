@@ -7,8 +7,8 @@ function setup() { "use strict";
 function draw(){
 var context = canvas.getContext('2d');
 canvas.width = canvas.width;
-//var theta1 = slider1.value*0.005*Math.PI;
-  var theta1 = slider1.value*0.005*Math.PI;
+
+  var theta1 = slider.value*0.005*Math.PI;
  
   
 function outerRings (x, y, r){
