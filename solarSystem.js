@@ -2,7 +2,7 @@ function setup() { "use strict";
                   
   var canvas = document.getElementById('myCanvas');
   var slider = document.getElementById('slider');
-  slider1.value = -25;
+  slider.value = -25;
 
 function draw(){
 var context = canvas.getContext('2d');
@@ -98,7 +98,7 @@ context.fill();
   context.restore();
     
   }
-  slider1.addEventListener("input",draw);
+  slider.addEventListener("input",draw);
   draw();
 }
 window.onload = setup;
