@@ -1,7 +1,7 @@
 function setup() { "use strict";
                   
   var canvas = document.getElementById('myCanvas');
-  var slider1 = document.getElementById('slider1');
+  var slider = document.getElementById('slider');
   slider1.value = -25;
 
 function draw(){
