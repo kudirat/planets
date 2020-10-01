@@ -5,7 +5,6 @@ function setup() { "use strict";
   slider1.value = -25;
 
 function draw(){
-var canvas = document.getElementById('circle');
 var context = canvas.getContext('2d');
 canvas.width = canvas.width;
 //var theta1 = slider1.value*0.005*Math.PI;
