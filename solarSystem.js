@@ -1,3 +1,16 @@
+function setup() { "use strict";
+                  
+  var canvas = document.getElementById('myCanvas');
+  var slider = document.getElementById('slider');
+  slider.value = -25;
+
+function draw(){
+var context = canvas.getContext('2d');
+canvas.width = canvas.width;
+
+  var theta1 = slider.value*0.005*Math.PI;
+ 
+  
 function outerRings (x, y, r){
 
   
